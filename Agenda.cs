@@ -2,7 +2,7 @@
 Console.WriteLine("Welcome to my Contact List");
 
 
-//names, lastnames, addresses, telephones, emails, ages, bestfriend
+
 bool running = true;
 List<int> ids = new List<int>();
 Dictionary<int, string> names = new Dictionary<int, string>();
@@ -30,7 +30,7 @@ while (running)
 
             }
             break;
-        case 2: //extract this to a method
+        case 2: 
             {
                 Console.WriteLine($"Nombre          Apellido            Dirección           Telefono            Email           Edad            Es Mejor Amigo?");
                 Console.WriteLine($"____________________________________________________________________________________________________________________________");
@@ -39,7 +39,7 @@ while (running)
 
             }
             break;
-        case 3: //search
+        case 3: 
             {
 
                 Console.WriteLine("ingresa el Id del usuario a buscar");
@@ -50,7 +50,7 @@ while (running)
 
             }
             break;
-        case 4: //modify
+        case 4: 
             {
 
                 Console.WriteLine("ingresa el Id del usuario a modificar");
@@ -60,7 +60,7 @@ while (running)
 
             }
             break;
-        case 5: //delete
+        case 5: 
             {
 
                 Console.WriteLine("ingresa el Id del usuario a borrar");
